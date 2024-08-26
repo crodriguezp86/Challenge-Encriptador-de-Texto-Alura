@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@media(max-width:1050px){
+    .presentacion_contenido{
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+}
+    
+
+:root{
+    --color-1:#0a3871;
+    --color-2: #ffffff;
+    --color-fondo: #f3f5fc;
+    --color-fondo-boton:#d8dfe8;
+    --fuente-inter: "Inter", sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: var(--color-fondo);
+   
+}
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    
+}
+.presentacion_contenido{
+  display: flex;
+  align-content: space-around;
+       
+    width: 800px;
+    height: 600px;
+    top: 622px;
+    left: -2277px;
+     
+}
+.logo{
+    width: fixed 120px;
+    height: 48px;
+    margin: 40px 0px 0px 40px;
+    gap: 40px;
+}
+.texto_para_encriptar{
+    width: 577px;
+    height: 48px;
+    margin: 168px 0 0 140px;
+    font-family: var(--fuente-inter);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color:var(--color-1);
+ 
+}
+.botones{
+    display: flex;
+    align-items: center;
+    width: fixed 680px;
+    height: hug 67px;
+    margin: 800px 0px 0px 200px;
+    gap: 80px;
+  
+ 
+
+}
+.encriptar{
+    width: fixed 328px;
+    height: hug 67px;
+    padding: 12px;
+    gap: 8px;
+    border: 1px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: var(--color-1);
+    font-family: var(--fuente-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    color:var(--color-2);
+    
+
+}
+.desencriptar{
+    width: fixed 328px;
+    height: hug 67px;
+    padding: 12px;
+    gap: 8px;
+    border: 1px;
+    border-radius: 24px;
+    opacity: 0px;
+    background-color: var(--color-fondo-boton);
+    font-family: var(--fuente-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    color:var(--color-1);
+    
+}
+.uno{
+    width: 500;
+    height: 600;
+}
+.dos{
+    width: 500;
+    height: 600;
+}
+.muñeco{
+    width: 336px;
+    height: 304px;
+    margin: 283px 0px 0px 250px;
+   
+    
+}
